@@ -6,4 +6,9 @@
     android:background="@drawable/main_bg_drawable" >
     
 
+   <TextView
+       android:text="Hi"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       />
 </LinearLayout>
