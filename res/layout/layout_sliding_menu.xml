@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide_bg_drawable"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1b1b1b"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filters"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#f8f8f8" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/menubtn_pressed_states"
+        android:text="Lowest Price"
+        android:gravity="left"
+        android:padding="10dp" />
+	
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/menubtn_pressed_states"
+        android:text="Best Product"
+        android:gravity="left"
+        android:padding="10dp" />
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/menubtn_pressed_states"
+        android:text="Nearest Place"
+        android:gravity="left"
+        android:padding="10dp" />
+   
+
+</LinearLayout>
